@@ -1,0 +1,259 @@
+body {
+  color: aqua;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: rgb(13, 13, 43);
+  width: 1300px;
+  margin: auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 80px;
+  border: 1px solid white;
+  padding: 60px 240px 60px 40px;
+}
+header {
+  padding: 30px 0 30px 0;
+  border: 1px solid white;
+}
+.contenidomenu1 {
+  margin: 0 auto 0 auto;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.iconologo a img {
+  width: 160px;
+  display: flex;
+}
+/* MENUT TOP1 */
+.menutop1 {
+  margin-bottom: 20px;
+}
+
+.menutop1 ul li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0 30px 0 30px;
+}
+
+.menutop1 li a {
+  text-decoration: none;
+  color: aqua;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sesion ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fa-magnifying-glass {
+  font-size: 25px;
+}
+
+/* BANNER */
+
+.menuimagen {
+  background-image: url("imagenes/imagenbanner.jpeg"); /* Imagen de fondo del enlace */
+  background-size: 100%; /* Ajustar el tamaño de la imagen al contenedor del enlace */
+  padding: 240px 200px; /* Espaciado interno del enlace */
+  border: 1px solid white;
+}
+
+.contenedor {
+  position: relative; /* Se necesita para posicionar el div contenido */
+}
+
+.menuimagen a {
+  text-decoration: none; /* Quitar subrayado del enlace */
+  color: aqua; /* falta añadir boton */
+}
+.menuizquierda {
+  position: absolute;
+  left: 10px; /* Distancia desde el borde izquierdo */
+  top: 50%; /* Ajusta la posición verticalmente según sea necesario */
+  transform: translateY(-50%); /* Centra verticalmente el div */
+  background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
+  padding: 100px; /* Espaciado interno */
+}
+
+.boton a {
+  padding: 10px 20px; /* Relleno del botón */
+  background-color: rgb(110, 110, 236); /* Color de fondo azul */
+  border: 1px solid white; /* Borde blanco */
+  color: white; /* Color del texto */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  font-weight: 500;
+}
+
+.boton a:hover {
+  background-color: darkblue; /* Cambia el color de fondo al pasar por encima */
+}
+
+.boton {
+  margin-top: 40px;
+}
+
+/* MENU 2 fichas */
+
+h2 {
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+}
+
+.fichas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  border: 1px solid white;
+  padding: 30px;
+}
+
+.ficha {
+  width: 250px;
+  border: 1px solid #d5d5d5;
+  padding: 20px 20px 10px 20px;
+  margin: 20px;
+  font-family: "Oswald", sans-serif;
+}
+div {
+  display: block;
+}
+
+.ficha img {
+  width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+  height: auto; /* La altura se ajusta automáticamente para mantener la proporción de la imagen */
+  display: block; /* Asegura que la imagen se muestre como un bloque */
+}
+
+h3 {
+  display: block;
+  font-size: 1.8em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.ficha i {
+  font-size: 25px;
+  padding: 10px 20px; /* Relleno del botón */
+  background-color: rgb(110, 110, 236); /* Color de fondo azul */
+  border: none;
+  border-radius: 10%;
+}
+
+/* MENU 3 INFO */
+
+.contenidomenu3 {
+  background-image: url(imagenes/sala.jpg);
+  background-size: 100%; /* Ajustar el tamaño de la imagen al contenedor del enlace */
+  padding: 240px 70px 200px; /* Espaciado interno del enlace */
+  border: 1px solid white;
+}
+
+h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.texto {
+  margin-right: 50px; /* Ajusta el margen izquierdo según sea necesario */
+  display: block;
+  background-color: rgba(
+    9,
+    6,
+    49,
+    0.7
+  ); /* Color negro (0, 0, 0) con una opacidad del 50% (0.5) */
+  padding: 20px 2px 20px 20px; /* Ajusta el relleno según sea necesario */
+  border: none;
+}
+.texto p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.enlacepremium a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(128, 128, 187);
+}
+
+/* Menu 4 */
+
+.contenidomenu4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  border: 1px solid white;
+  justify-content: space-between; /* Distribuye el espacio entre los elementos */
+  align-items: center; /* Centra los elementos verticalmente */
+}
+
+.fichatarjeta {
+  display: block;
+  width: 300px;
+  border: 1px solid #d5d5d5;
+  box-shadow: 0px 1px 20px #e7d467;
+  border-radius: 5px;
+  font-family: "Oswald", sans-serif;
+  background-color: white;
+  margin: 0px 60px 0px 60px;
+}
+
+.fichatarjeta img {
+  width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+  height: auto; /* La altura se ajusta automáticamente para mantener la proporción de la imagen */
+  display: block; /* Asegura que la imagen se muestre como un bloque */
+}
+
+.fichatarjeta p {
+  display: block;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  font-size: 17px;
+  font-weight: 100;
+  margin: 20px;
+}
+
+/* footermenu */
+
+.contenidofooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloque {
+  justify-content: space-between;
+  margin: 50px;
+  border: 1px solid #d5d5d5;
+  padding: 30px 30px 30px 10px;
+  text-align: left; /* Alinea los elementos de la lista hacia la izquierda */
+}
+
+.sindeco {
+  list-style: none;
+  text-decoration: none;
+  font-size: 17px;
+}
